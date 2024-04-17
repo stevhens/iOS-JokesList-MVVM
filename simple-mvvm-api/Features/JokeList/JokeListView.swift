@@ -23,11 +23,13 @@ struct JokeListView: View {
     
     private var listView: some View {
         List(viewModel.jokes, id: \.id) { joke in
-            VStack(alignment: .leading) {
-                Text(joke.setup)
-                    .font(.headline)
-                Text(joke.punchline)
-                    .font(.subheadline)
+            NavigationLink(destination: JokeDetailView(jokeID: joke.id)) {
+                VStack(alignment: .leading) {
+                    Text(joke.setup)
+                        .font(.headline)
+                    Text(joke.punchline)
+                        .font(.subheadline)
+                }
             }
         }
     }
