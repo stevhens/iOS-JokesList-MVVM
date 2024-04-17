@@ -57,7 +57,6 @@
 			children = (
 				78D56AEA2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift */,
 				78D56AEC2BCFF12600D3DDCD /* ContentView.swift */,
-				78D56AF82BCFF14D00D3DDCD /* NewsList */,
 				78D56AEE2BCFF12800D3DDCD /* Assets.xcassets */,
 				78D56AF02BCFF12800D3DDCD /* Preview Content */,
 			);
@@ -70,13 +69,6 @@
 				78D56AF12BCFF12800D3DDCD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		78D56AF82BCFF14D00D3DDCD /* NewsList */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = NewsList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
