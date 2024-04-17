@@ -10,6 +10,8 @@
 		78215A272BCFF54900641903 /* JokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78215A262BCFF54900641903 /* JokeModel.swift */; };
 		78215A2A2BCFF75600641903 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78215A292BCFF75600641903 /* NetworkClient.swift */; };
 		78215A2C2BCFF75D00641903 /* DefaultNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78215A2B2BCFF75D00641903 /* DefaultNetworkClient.swift */; };
+		78215A2F2BCFF7CC00641903 /* ContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78215A2E2BCFF7CC00641903 /* ContentRepository.swift */; };
+		78215A312BCFF7D700641903 /* DefaultContentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78215A302BCFF7D700641903 /* DefaultContentRepository.swift */; };
 		78D56AEB2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D56AEA2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift */; };
 		78D56AED2BCFF12600D3DDCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D56AEC2BCFF12600D3DDCD /* ContentView.swift */; };
 		78D56AEF2BCFF12800D3DDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D56AEE2BCFF12800D3DDCD /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 		78215A262BCFF54900641903 /* JokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModel.swift; sourceTree = "<group>"; };
 		78215A292BCFF75600641903 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		78215A2B2BCFF75D00641903 /* DefaultNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNetworkClient.swift; sourceTree = "<group>"; };
+		78215A2E2BCFF7CC00641903 /* ContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRepository.swift; sourceTree = "<group>"; };
+		78215A302BCFF7D700641903 /* DefaultContentRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultContentRepository.swift; sourceTree = "<group>"; };
 		78D56AE72BCFF12600D3DDCD /* simple-mvvm-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-mvvm-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D56AEA2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_mvvm_apiApp.swift; sourceTree = "<group>"; };
 		78D56AEC2BCFF12600D3DDCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +63,15 @@
 			path = NetworkClient;
 			sourceTree = "<group>";
 		};
+		78215A2D2BCFF7BC00641903 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				78215A2E2BCFF7CC00641903 /* ContentRepository.swift */,
+				78215A302BCFF7D700641903 /* DefaultContentRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		78D56ADE2BCFF12600D3DDCD = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +93,7 @@
 			children = (
 				78D56AEA2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift */,
 				78D56AEC2BCFF12600D3DDCD /* ContentView.swift */,
+				78215A2D2BCFF7BC00641903 /* Repository */,
 				78215A282BCFF5C100641903 /* NetworkClient */,
 				78215A252BCFF54100641903 /* JokeList */,
 				78D56AEE2BCFF12800D3DDCD /* Assets.xcassets */,
@@ -173,7 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78215A312BCFF7D700641903 /* DefaultContentRepository.swift in Sources */,
 				78D56AED2BCFF12600D3DDCD /* ContentView.swift in Sources */,
+				78215A2F2BCFF7CC00641903 /* ContentRepository.swift in Sources */,
 				78D56AEB2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift in Sources */,
 				78215A272BCFF54900641903 /* JokeModel.swift in Sources */,
 				78215A2C2BCFF75D00641903 /* DefaultNetworkClient.swift in Sources */,
