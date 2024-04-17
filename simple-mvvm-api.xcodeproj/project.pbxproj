@@ -15,6 +15,7 @@
 		78215A332BCFF8DB00641903 /* JokeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78215A322BCFF8DB00641903 /* JokeListViewModel.swift */; };
 		78215A352BCFF97B00641903 /* JokeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78215A342BCFF97B00641903 /* JokeListView.swift */; };
 		78215A462BD002BE00641903 /* JokeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78215A452BD002BE00641903 /* JokeDetailViewModel.swift */; };
+		78215A482BD0030200641903 /* JokeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78215A472BD0030200641903 /* JokeDetailView.swift */; };
 		78D56AEB2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D56AEA2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift */; };
 		78D56AED2BCFF12600D3DDCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D56AEC2BCFF12600D3DDCD /* ContentView.swift */; };
 		78D56AEF2BCFF12800D3DDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D56AEE2BCFF12800D3DDCD /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		78215A322BCFF8DB00641903 /* JokeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeListViewModel.swift; sourceTree = "<group>"; };
 		78215A342BCFF97B00641903 /* JokeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeListView.swift; sourceTree = "<group>"; };
 		78215A452BD002BE00641903 /* JokeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDetailViewModel.swift; sourceTree = "<group>"; };
+		78215A472BD0030200641903 /* JokeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDetailView.swift; sourceTree = "<group>"; };
 		78D56AE72BCFF12600D3DDCD /* simple-mvvm-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-mvvm-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D56AEA2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_mvvm_apiApp.swift; sourceTree = "<group>"; };
 		78D56AEC2BCFF12600D3DDCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				78215A452BD002BE00641903 /* JokeDetailViewModel.swift */,
+				78215A472BD0030200641903 /* JokeDetailView.swift */,
 			);
 			path = Joke;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				78215A332BCFF8DB00641903 /* JokeListViewModel.swift in Sources */,
 				78D56AEB2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift in Sources */,
 				78215A272BCFF54900641903 /* JokeModel.swift in Sources */,
+				78215A482BD0030200641903 /* JokeDetailView.swift in Sources */,
 				78215A2C2BCFF75D00641903 /* DefaultNetworkClient.swift in Sources */,
 				78215A462BD002BE00641903 /* JokeDetailViewModel.swift in Sources */,
 				78215A2A2BCFF75600641903 /* NetworkClient.swift in Sources */,

@@ -11,7 +11,7 @@ class JokeDetailViewModel: ObservableObject {
         self.contentRepository = contentRepository
     }
     
-    func fetchJoke(id: String) {
+    func fetchJoke(id: Int) {
         isLoading = true
         error = nil
         
