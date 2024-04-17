@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78215A272BCFF54900641903 /* JokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78215A262BCFF54900641903 /* JokeModel.swift */; };
 		78D56AEB2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D56AEA2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift */; };
 		78D56AED2BCFF12600D3DDCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D56AEC2BCFF12600D3DDCD /* ContentView.swift */; };
 		78D56AEF2BCFF12800D3DDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D56AEE2BCFF12800D3DDCD /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78215A262BCFF54900641903 /* JokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModel.swift; sourceTree = "<group>"; };
 		78D56AE72BCFF12600D3DDCD /* simple-mvvm-api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-mvvm-api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D56AEA2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_mvvm_apiApp.swift; sourceTree = "<group>"; };
 		78D56AEC2BCFF12600D3DDCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78215A252BCFF54100641903 /* JokeList */ = {
+			isa = PBXGroup;
+			children = (
+				78215A262BCFF54900641903 /* JokeModel.swift */,
+			);
+			path = JokeList;
+			sourceTree = "<group>";
+		};
 		78D56ADE2BCFF12600D3DDCD = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 			children = (
 				78D56AEA2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift */,
 				78D56AEC2BCFF12600D3DDCD /* ContentView.swift */,
+				78215A252BCFF54100641903 /* JokeList */,
 				78D56AEE2BCFF12800D3DDCD /* Assets.xcassets */,
 				78D56AF02BCFF12800D3DDCD /* Preview Content */,
 			);
@@ -150,6 +161,7 @@
 			files = (
 				78D56AED2BCFF12600D3DDCD /* ContentView.swift in Sources */,
 				78D56AEB2BCFF12600D3DDCD /* simple_mvvm_apiApp.swift in Sources */,
+				78215A272BCFF54900641903 /* JokeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
